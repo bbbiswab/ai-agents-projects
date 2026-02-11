@@ -1,0 +1,90 @@
+# ===============================
+# Python bytecode & caches
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Environment variables / secrets
+# ===============================
+.env
+*.env
+
+# ===============================
+# Jupyter Notebook stuff
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Temp files created by agent
+# ===============================
+tmp*.py
+*.tmp
+*.log
+/temp/
+tmp/
+
+# ===============================
+# Model files (local LLMs)
+# ===============================
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.ckpt
+
+# ===============================
+# HuggingFace cache
+# ===============================
+.cache/
+huggingface/
+hf_cache/
+
+# ===============================
+# VS Code / IDE
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# OS generated
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Build artifacts
+# ===============================
+dist/
+build/
+*.egg-info/
+
+# ===============================
+# Test output
+# ===============================
+.coverage
+pytest_cache/
+
+# ===============================
+# LangGraph / agent logs
+# ===============================
+logs/
+runs/
+outputs/
+
+# ===============================
+# Requirements lock (optional)
+# ===============================
+requirements.lock
