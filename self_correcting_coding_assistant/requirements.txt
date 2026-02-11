@@ -1,0 +1,9 @@
+langgraph
+google-genai
+requests
+python-dotenv
+torch
+transformers
+accelerate
+bitsandbytes
+sentencepiece
